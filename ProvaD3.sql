@@ -1,0 +1,16 @@
+CREATE DATABASE ProvaD3;
+GO
+
+USE ProvaD3;
+GO
+
+CREATE TABLE Users(
+	IdUser				VARCHAR(100) NOT NULL UNIQUE,
+	[Name]			    VARCHAR(100) NOT NULL,
+	Email				VARCHAR(100) NOT NULL,
+	[Password]			VARCHAR(255) NOT NULL
+);
+GO
+
+SELECT * FROM Users;
+
